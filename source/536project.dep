@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2380975021</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\src\Led.c</file>
+      <file>$PROJ_DIR$\src\ADC.c</file>
+      <file>$PROJ_DIR$\src\Key.c</file>
+      <file>$PROJ_DIR$\src\Beep.c</file>
+      <file>$PROJ_DIR$\src\FPM_Protocol.c</file>
+      <file>$PROJ_DIR$\src\Motor.c</file>
+      <file>$PROJ_DIR$\src\Timer.c</file>
+      <file>$PROJ_DIR$\src\Uart.c</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\src\Task.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\BasicFunctions.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Config.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2433.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Config.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\536project.pbd</file>
+      <file>$PROJ_DIR$\src\Config.h</file>
+      <file>$PROJ_DIR$\src\EXTI.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\src\Warning.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BasicFunctions.pbi</file>
+      <file>$PROJ_DIR$\src\MacroAndConst.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Task.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Beep.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Led.r43</file>
+      <file>$PROJ_DIR$\src\Config.c</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2433.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\Beep.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\FPM_Protocol.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\ADC.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Led.pbi</file>
+      <file>$PROJ_DIR$\src\Beep.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\src\ADC.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Key.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\FPM_Protocol.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\src\Led.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\src\Key.h</file>
+      <file>$PROJ_DIR$\src\FPM_Protocol.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\src\Motor.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Motor.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Warning.r43</file>
+      <file>$PROJ_DIR$\src\Uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Timer.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Warning.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\src\BasicFunctions.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Motor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Timer.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\EXTI.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Task.r43</file>
+      <file>$PROJ_DIR$\src\Task.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Uart.r43</file>
+      <file>$PROJ_DIR$\src\Warning.h</file>
+      <file>$PROJ_DIR$\src\Timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\EXTI.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Key.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\536project.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\ADC.r43</file>
+      <file>$PROJ_DIR$\src\BasicFunctions.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\src\Led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 12 66 39 22 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 38 12 66 39 22 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ADC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 12 66 39 22 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 34 12 66 39 22 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 12 66 39 22 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 40 12 66 39 22 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Beep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 12 66 39 22 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 12 66 39 22 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\FPM_Protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 12 66 39 22 15 61 48 40 62 42 37 43 33 18 67 17 51</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 41 12 66 39 22 15 61 48 40 62 42 37 43 33 20 18 67 17 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 12 66 39 22 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 12 66 39 22 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 12 66 39 22 15 40 34 38 61</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 62 12 66 39 22 15 40 34 38 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 12 66 39 22 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 48 12 66 39 22 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 12 66 39 22 44 40 38 32 48 62 41 34 61 59</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 12 66 39 22 44 40 38 32 48 62 41 34 61 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 12 66 39 22 15 41 61 62 44 38 32</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 59 12 66 39 22 15 41 61 62 44 38 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\536project.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 30 28 36 65 31 53 23 55 54 50 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\EXTI.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Warning.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 12 66 39 22 15 38 32 62 40</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 61 12 66 39 22 15 38 32 62 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 12 66 39 22 62</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 12 66 39 22 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\536project.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 27 69 24 29 35 25 45 58 49 60 47 46 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\BasicFunctions.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\src\Led.c</file>
+      <file>$PROJ_DIR$\src\ADC.c</file>
+      <file>$PROJ_DIR$\src\Key.c</file>
+      <file>$PROJ_DIR$\src\Beep.c</file>
+      <file>$PROJ_DIR$\src\FPM_Protocol.c</file>
+      <file>$PROJ_DIR$\src\Motor.c</file>
+      <file>$PROJ_DIR$\src\Timer.c</file>
+      <file>$PROJ_DIR$\src\Uart.c</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\src\Task.c</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2433.h</file>
+      <file>$PROJ_DIR$\src\Config.h</file>
+      <file>$PROJ_DIR$\Release\Obj\Timer.r43</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Release\Obj\Task.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\536project.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Warning.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Task.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\ADC.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Beep.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Led.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Key.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Timer.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Uart.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Motor.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Warning.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Beep.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Led.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\FPM_Protocol.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Uart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\Key.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\FPM_Protocol.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\Motor.r43</file>
+      <file>$TOOLKIT_DIR$\config\lnkCC430F5133.xcl</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Release\Exe\536project.txt</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\ADC.pbi</file>
+      <file>$PROJ_DIR$\src\Warning.c</file>
+      <file>$PROJ_DIR$\src\MacroAndConst.h</file>
+      <file>$PROJ_DIR$\src\Beep.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\src\ADC.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\src\Led.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\src\Key.h</file>
+      <file>$PROJ_DIR$\src\FPM_Protocol.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\src\Motor.h</file>
+      <file>$PROJ_DIR$\src\Uart.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\src\Task.h</file>
+      <file>$PROJ_DIR$\src\Warning.h</file>
+      <file>$PROJ_DIR$\src\Timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\src\Led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 10 60 49 43 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 48 10 60 49 43 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ADC.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 10 60 49 43 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 46 10 60 49 43 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 10 60 49 43 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 50 10 60 49 43 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Beep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 10 60 49 43 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 44 10 60 49 43 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\FPM_Protocol.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 10 60 49 43 11 58 55 50 59 52 47 53 45 15 61 14 56</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 51 10 60 49 43 11 58 55 50 59 52 47 53 45 13 15 61 14 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 10 60 49 43 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 54 10 60 49 43 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 10 60 49 43 11 50 46 48 58</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 59 10 60 49 43 11 50 46 48 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 10 60 49 43 11</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 55 10 60 49 43 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 10 60 49 43 54 50 48 44 55 59 51 46 58 57</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 11 10 60 49 43 54 50 48 44 55 59 51 46 58 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 10 60 49 43 11 51 58 59 54 48 44</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 57 10 60 49 43 11 51 58 59 54 48 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\536project.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 41 22 31 33 30 27 16 25 32 28 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\536project.txt</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 36 37 21 29 34 24 23 35 20 12 26 19 38 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\Warning.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 10 60 49 43 11 48 44 59 50</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 58 10 60 49 43 11 48 44 59 50</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
